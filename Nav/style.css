@@ -1,0 +1,75 @@
+body {
+    background-color: darkgray;
+}
+
+nav {
+    background-color: rgb(54, 52, 52);
+    padding: 8px;
+    width: 48%;
+    border-bottom: 1.5px solid white;
+}
+
+.title-nav {
+    color: white;
+    font-size: 16px;
+}
+
+.links {
+    margin-left: 15px;
+}
+
+.link1 {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link2 {
+    color: lightgray;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+label {
+    color: lightgray;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#drop {
+    background-color: inherit;
+    border: none;
+    color: lightgray;
+    font-size: 14px;
+    margin-left: -5px;
+}
+
+#disabled {
+    color: gray;
+    background-color: inherit;
+    border: none;
+}
+
+.search-bar {
+    margin-left: 50px;
+}
+
+#search {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+#b-search {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid  rgb(101, 176, 121);
+    background-color: inherit;
+    color: rgb(101, 176, 121);
+}
+
+#b-search:hover {
+    background-color: rgb(101, 176, 121);
+    color: white;
+}

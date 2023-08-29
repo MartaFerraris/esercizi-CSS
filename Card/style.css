@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#card {
+    margin: 10px;
+    border: 1px solid lightgray;
+    width: 25%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.paragraph {
+    padding-left: 15px;
+    padding-right: 15%;
+    border-bottom: 1px solid lightgray;
+}
+
+.link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link a{
+    margin-left: 15px;
+    display: inline;
+}
