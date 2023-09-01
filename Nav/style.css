@@ -40,9 +40,6 @@ label {
 #drop {
     background-color: inherit;
     border: none;
-    color: lightgray;
-    font-size: 14px;
-    margin-left: -5px;
 }
 
 #disabled {
