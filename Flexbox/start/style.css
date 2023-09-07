@@ -1,31 +1,34 @@
-body {
+html, body {
     height: 100%;
-    display: flex;
 }
 
 #sidebar {
     padding: 1%;
     margin: 1%;
     width: 200px;
-    height: 95%;
+    height: 94%;
     background-color: lightgreen;
     flex-direction: column;
     display: flex;
     align-items: center;
 }
 
-.placeholder {
-    margin: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    border: black solid 1px;
-    background-color: none;
-}
-
 .image-svg {
     margin: 5%;
+    position: relative;
+}
+
+.placeholder {
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    font-size: 20px;
+    color: black;
+}
+
+#svg {
+    opacity: 70%;
 }
 
 .navbar-links{
