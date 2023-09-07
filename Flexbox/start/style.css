@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    display: flex;
+}
+
+#sidebar {
+    padding: 1%;
+    margin: 1%;
+    width: 200px;
+    height: 95%;
+    background-color: lightgreen;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.image-svg {
+    margin: 10%;
+}
+
+.navbar-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #2b2b2b;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    flex: 1 0 30px;
+}
+
+.navbar-links a:hover {
+    color: #2b2bb2;
+}
+
+.navbar-links a:active {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.avatar-username {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin-bottom: 10%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: #2b2b2b;
+    font-size: 14px;
+    align-items: center;
+}
+
+.avatar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.username-2 {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
