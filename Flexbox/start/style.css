@@ -1,4 +1,4 @@
-html, body {
+body {
     height: 100%;
     display: flex;
 }
@@ -14,8 +14,17 @@ html, body {
     align-items: center;
 }
 
+.placeholder {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
 .image-svg {
-    margin: 10%;
+    margin: 5%;
 }
 
 .navbar-links{
