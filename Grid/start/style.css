@@ -1,69 +1,72 @@
+/*Ho provato ad aggiustare l'angolo in basso a sinistra, 
+ma non sono riuscita a capire come aggiustarlo.*/
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'lato', sans-serif;
 }
 
 section {
-    border: 1px solid darkslategray;
-    margin-bottom: 1rem;
-}
-
-div{
-    border: 1px solid darkslategray;
-    margin: 0;
-    text-align: center;
-    font-size: 20px;
-}
-
-div.result-bar{
-    background-color: gray;
-    color: white;
-}
-
-div.sign{
-    background-color: lightblue;
-}
-
-div.numbers {
-    background-color: lightgray;
-}
-
-div.bottom {
-    background-color: lightgray;
-}
-
-aside.equal {
-    background-color: salmon;
-}
-
-section #calculator{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    /* grid-template-rows: auto auto auto auto auto auto; */
-    /* grid-template-areas: 
-    "result-bar result-bar result-bar result-bar"
-    "sign sign sign sign"
-    "numbers numbers numbers equal" 
-    "numbers numbers numbers equal"
-    "numbers numbers numbers equal"
-    "bottom bottom bottom equal"; */
+    border-color: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px gray;
+    width: 50%;
+    height: 90%;
+    border: 1px solid #33393f;
 }
 
 .result-bar {
-    grid-area: result-bar;
+    width: 100%;
+    font-size: 5rem;
+    height: 12%;
+    background-color: #33393f;
+    color: aliceblue;
+    text-align: right;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
-.sign {
-    grid-area: sign;
+.numb-0 {
+    padding-right: 25px;
+    padding-top: 25px;
 }
 
-.numbers {
-    grid-area: numbers;
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 88%;
+    background-color: gainsboro;
+    border-bottom-left-radius: 20px;
 }
 
-.bottom {
-    grid-area: bottom;
+div.keys button{
+    text-align: center;
+    font-size: 5rem;
+    color: black;
 }
 
-.equal {
-    grid-area: equal;
+button.sign {
+    background-color: #bccacf;
+}
+
+button.equal {
+    background-color: #ef7b7b;
+    height: auto;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-bottom-right-radius: 20px;
+}
+
+section #calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
