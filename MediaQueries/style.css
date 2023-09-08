@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 3px gray;
+    width: 10%;
+    height: 40%;
+    border-radius: 7%;
+    margin: 5%;
+    background-image: linear-gradient(to bottom right, silver, white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.circle-data {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2%;
+}
+
+.circle-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: white;
+    margin-right: 2%;
+}
+
+.date {
+    color: white;
+}
+
+.svg-header {
+    margin-right: 2%;
+}
+
+img {
+    height: 170px;
+    object-fit: cover;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5%;
+}
+
+.svg-footer {
+    margin: 2%;
+}
+
+.svg-footer svg:first-child {
+    margin-right: 3%;
+}
