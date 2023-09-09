@@ -1,0 +1,160 @@
+body {
+    background-color: darkgray;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 52, 52);
+    padding: 8px;
+    width: 48%;
+    border-bottom: 1.5px solid white;
+}
+
+.title-nav {
+    justify-content: space-evenly;
+    color: white;
+    font-size: 16px;
+}
+
+.links {
+    margin-left: 15px;
+}
+
+.link1 {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link2 {
+    color: lightgray;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+label {
+    color: lightgray;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#drop {
+    background-color: inherit;
+    border: none;
+}
+
+#disabled {
+    color: gray;
+    background-color: inherit;
+    border: none;
+}
+
+.search-bar {
+    margin-left: 50px;
+}
+
+#search {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+#b-search {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid  rgb(101, 176, 121);
+    background-color: inherit;
+    color: rgb(101, 176, 121);
+}
+
+#b-search:hover {
+    background-color: rgb(101, 176, 121);
+    color: white;
+}
+
+#mobile-menu summary {
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav.navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid white;
+        width: auto;
+    }
+
+    .link1 {
+        display: none;
+    }
+
+    .link2 {
+        display: none;
+    }
+
+    #drop {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    #mobile-menu summary {
+        list-style: none;
+        align-self: baseline;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .burger {        
+        cursor: pointer;        
+    }
+    
+    .burger span {
+        display: block;
+        width: 15px;
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+    }
+
+    .link-burger {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        right: 1vw;
+    }
+
+    .link-a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .link-a:hover {
+        color: greenyellow;
+    }
+
+    #mobile-menu:checked {
+        display: block;
+        position: relative;
+    }
+
+    .link-burger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 2px solid rgb(54, 52, 52);
+        background-color: rgb(105, 100, 100);
+    }
+}

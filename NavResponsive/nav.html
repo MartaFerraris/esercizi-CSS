@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML esercizio</title>
+    <meta name="author" content="name">
+    <meta name="description" content="pagina di esercizio">
+    <title>HTML navbar</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="title-nav">Navbar</span>
+        <span class="links">
+            <a href="#" class="link1">Home</a>
+            <a href="#" class="link2">Link</a>
+            <label for="#">Dropdown</label>
+            <picture id="drop">
+                <object data="arrow-dropdown_1.svg" width="10" height="10"> </object>
+            </picture>
+            <input type="button" id="disabled" name="disable" value="Disabled" disabled>
+        </span>
+        <span class="search-bar">
+            <input type="text" id="search" name="search" placeholder="Search">
+            <input type="button" id="b-search" name="b-search" value="Search">
+        </span>
+        <details id="mobile-menu">
+            <summary>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </summary>        
+            <div class="link-burger">
+                <a href="#" class="link-a">Home</a>
+                <a href="#" class="link-a">Link</a>
+            </div>
+        </details>
+    </nav>
+</body>
+</html>
