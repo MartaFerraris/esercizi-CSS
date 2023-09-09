@@ -79,6 +79,10 @@ label {
     list-style: none;
 }
 
+.link-a {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     nav.navbar {
         display: flex;
@@ -136,6 +140,7 @@ label {
     }
 
     .link-a {
+        display: block;
         color: white;
         text-decoration: none;
     }
