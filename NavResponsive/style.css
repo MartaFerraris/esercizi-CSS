@@ -1,14 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: darkgray;
-    width: auto;
 }
 
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     background-color: rgb(54, 52, 52);
     padding: 8px;
-    width: 48%;
+    margin: 1vh 1vw;
+    width: 98%;
     border-bottom: 1.5px solid white;
 }
 
@@ -90,26 +100,10 @@ label {
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid white;
-        width: auto;
-    }
-
-    .link1 {
-        display: none;
-    }
-
-    .link2 {
-        display: none;
-    }
-
-    #drop {
-        display: none;
+        width: 90%;
     }
 
     .links {
-        display: none;
-    }
-
-    .search-bar {
         display: none;
     }
 
