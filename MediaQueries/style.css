@@ -7,6 +7,7 @@
     body {
         display: flex;
         flex-direction: column;
+        flex-shrink: 0;
         height: 100%;
     }
 
@@ -31,8 +32,10 @@
 }
 
 body {
-    width: 100vw;
-    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh; /*ho provato a toglierlo o mettere le %, ma mi mette le card vicine al bordo superiore. */
 }
 
 .three-cards {
@@ -101,6 +104,8 @@ footer {
 
 .svg-footer {
     margin: 2%;
+    display: flex;
+    align-items: center;
 }
 
 .svg-footer svg:first-child {
