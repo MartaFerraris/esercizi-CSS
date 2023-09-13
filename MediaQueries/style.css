@@ -35,7 +35,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75vh; /*ho provato a toglierlo o mettere le %, ma mi mette le card vicine al bordo superiore. */
 }
 
 .three-cards {
@@ -43,8 +42,9 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20%;
 }
 
 .card {
